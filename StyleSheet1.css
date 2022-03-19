@@ -1,0 +1,20 @@
+﻿
+body {
+    width: 120px;
+    height: 140px;
+}
+
+.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 50px;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    /*margin: 4px 4px;*/
+    cursor: pointer;
+}

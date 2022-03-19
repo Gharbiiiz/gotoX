@@ -36,16 +36,20 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
 		//</button>=
 
 
-		//document.getElementById("Hide").innerHTML = "<button onclick =\"href=\"http://" + Url.substring(IpStart, IpEnd) + ":"
-		//											+ Port + "\\hide123.htm\"\"</button>Goto Hide";
+		document.getElementById("Hide").innerHTML = "<a href=\"http://" + Url.substring(IpStart, IpEnd) + ":" + Port +
+			"\\hide123.htm\" class=\"button\" target=\"_bank\">Go to hide</a>";
+		document.getElementById("Hispayment").innerHTML = "<a href=\"http://" + Url.substring(IpStart, IpEnd) + ":" + Port +
+			"\\historic\paymenthistoric.htm\" class=\"button\" target=\"_bank\">Go to hispayment</a>";
+
+
 		//document.getElementById("Hispayment").innerHTML = "<a href=\"http://" + Url.substring(IpStart, IpEnd) + ":"
-		//											+ Port + "\\historic/paymenthistoric.htm\" target=\"_bank\"</a>Goto Hispayment";
+		//											+ Port + "\\historic/paymenthistoric.htm\" target=\"_bank\"</a>Goto Hide";
 	} else {
 		document.getElementById("Hide").innerHTML = "not found";
 	}
 
 
-	//<button onclick="window.location.href=" http:="" 81.1.8.102: 8788\hide123.htm"" <\button = "" > Goto Hide</button >
+	//<button onclick="window.location.href=" http:="" 81.1.8.102: 8788\hide123.htm"" <\button = "" > Goto Hispayment</button >
   
 });
 
