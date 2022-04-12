@@ -39,7 +39,7 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
 		document.getElementById("Hide").innerHTML = "<a href=\"http://" + Url.substring(IpStart, IpEnd) + ":" + Port +
 			"\\hide123.htm\" class=\"button\" target=\"_bank\">Go to hide</a>";
 		document.getElementById("Hispayment").innerHTML = "<a href=\"http://" + Url.substring(IpStart, IpEnd) + ":" + Port +
-			"\\historic\paymenthistoric.htm\" class=\"button\" target=\"_bank\">Go to hispayment</a>";
+			"\\historic\\paymenthistoric.htm\" class=\"button\" target=\"_bank\">Go to hispayment</a>";
 
 
 		//document.getElementById("Hispayment").innerHTML = "<a href=\"http://" + Url.substring(IpStart, IpEnd) + ":"
